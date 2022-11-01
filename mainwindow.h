@@ -16,8 +16,11 @@ public:
     ~MainWindow();
     void encrypt();
     void saveToFile();
+    void readFromFile();
+    void swapTextBoxes();
 
 private:
     Ui::MainWindow *ui;
+    std::string _convertedValue;
 };
 #endif // MAINWINDOW_H

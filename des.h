@@ -19,7 +19,7 @@ using namespace std;
 
 
 // Variabili
-int NUMBERS_P_BOX[8] =          {7,0,1,5,2,4,3,6};
+int NUMBERS_P_BOX[8] =          {0,7,1,5,2,4,3,6};
 int NUMBERS_S_BOX[4] =          {2,3,1,0};
 string XOR_KEY       =          "01010011";
 

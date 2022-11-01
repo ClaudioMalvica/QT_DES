@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
+    <width>500</width>
     <height>400</height>
    </rect>
   </property>
@@ -18,26 +18,26 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>300</width>
+    <width>500</width>
     <height>400</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>300</width>
+    <width>500</width>
     <height>400</height>
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Crittografia</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTextEdit" name="userMessageBox">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
-      <width>281</width>
+      <y>60</y>
+      <width>481</width>
       <height>81</height>
      </rect>
     </property>
@@ -45,14 +45,21 @@
    <widget class="QPushButton" name="cryptButton">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>150</y>
-      <width>111</width>
-      <height>36</height>
+      <x>190</x>
+      <y>160</y>
+      <width>141</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>cripta</string>
+     <string>Crittografa</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="convertedLabel">
@@ -60,22 +67,61 @@
      <rect>
       <x>10</x>
       <y>230</y>
-      <width>271</width>
-      <height>61</height>
+      <width>481</width>
+      <height>81</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="saveFile">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>310</y>
+      <x>380</x>
+      <y>320</y>
       <width>111</width>
       <height>36</height>
      </rect>
     </property>
     <property name="text">
-     <string>salva</string>
+     <string>Salva su file</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="invertCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inverti crittografia</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="swapButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>111</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Swap</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fileReadButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>141</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lettura da file</string>
     </property>
    </widget>
   </widget>
@@ -84,7 +130,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>300</width>
+     <width>500</width>
      <height>30</height>
     </rect>
    </property>
